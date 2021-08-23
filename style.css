@@ -190,3 +190,108 @@ img {
 
 
 /* cli end */
+
+/* cloud */
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
+}
+
+/* languages */
+.languages .flex {
+    flex-wrap: wrap;
+}
+
+.languages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover {
+    transform: translateY(-15px);
+}
+
+
+/* Languages end*/
+
+/* footer */
+.footer .social a{
+    margin:0 10px;
+}
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-facebook:hover {
+    color: #1773ea;
+}
+
+.fa-instagram:hover {
+    color: #b32e87;
+}
+
+.fa-twitter:hover {
+    color: #1c9cea;
+}
+
+
+/* footer end */
+/* features */
+.features .heads img,
+.doc-head img {
+
+
+}
+.features sub-head img {
+    width: 300px;
+    justify-self: flex-end;
+}
+
+
+.features-main .grid {
+    padding: 30px;
+}
+
+
+.features-main .card {
+    margin-right: 20px;
+
+}
+.features-main .grid>*:first-child{
+    grid-column:1 / span 3 ;
+}
+.features-main .grid>*:nth-child (2) {
+grid-column:1 / span 2;
+}
+
+/* docs */
+.docs-main h3 {
+    margin:20px;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs-main nav li{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover{
+    font-weight: bold;
+
+}
+code,pre{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
